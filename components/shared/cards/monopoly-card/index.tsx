@@ -51,4 +51,4 @@ const MonopolyCard: React.FC<IMonopolyCard> = ({
   );
 };
 
-export default MonopolyCard;
+export { MonopolyCard };

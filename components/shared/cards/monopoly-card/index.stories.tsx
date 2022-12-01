@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import MonopolyCard, { IMonopolyCard } from './MonopolyCard';
-import { mockBaseTemplateProps } from './MonopolyCard.mock';
+import { IMonopolyCard, MonopolyCard } from '.';
+import { mockBaseTemplateProps } from '../../../../mocks/MonopolyCard.mock';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

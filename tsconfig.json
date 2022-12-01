@@ -21,7 +21,7 @@
       "@shared/*": ["components/shared/*"],
       "@enums/*": ["enums/*"],
       "@hooks/*": ["hooks/*"],
-      "@interceptor/*": ["interceptor/*"],
+      "@interceptors/*": ["interceptors/*"],
       "@interfaces/*": ["interfaces/*"],
       "@mocks/*": ["mocks/*"],
       "@models/*": ["models/*"],

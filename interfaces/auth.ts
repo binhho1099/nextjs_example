@@ -9,12 +9,17 @@ export interface IRegisterData {
   password: string;
 }
 
-export interface IToken {
-  accessToken: string;
-  accessTokenExpired: string;
+export interface IUser {
   email: string;
   phone: string;
-  refreshToken: string;
   userId: string;
   userName: string;
 }
+
+export interface IToken {
+  accessToken: string;
+  accessTokenExpired: string;
+  refreshToken: string;
+}
+
+export type ILoginResponse = IToken & IUser;

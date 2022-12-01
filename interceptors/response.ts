@@ -1,5 +1,5 @@
+import { Axios } from '@utils/axios';
 import { AxiosError, AxiosResponse } from 'axios';
-import { Axios } from '../utils/axios';
 
 Axios.interceptors.response.use(
   (response: AxiosResponse) => {

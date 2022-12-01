@@ -1,5 +1,5 @@
-import { LoginForm } from '@components/auth/login';
-import MonopolyCard from '@components/shared/cards/monopoly-card/MonopolyCard';
+import { LoginForm } from '@components/auth';
+import { MonopolyCard } from '@components/shared/cards';
 import type { NextPage } from 'next';
 import React from 'react';
 // import { Button } from '../stories/Button';

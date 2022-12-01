@@ -1,4 +1,4 @@
-import { IMonopolyCard } from './MonopolyCard';
+import { IMonopolyCard } from '@components/shared/cards';
 
 const base: IMonopolyCard = {
   imageSrc: './assets/test.jpg',
