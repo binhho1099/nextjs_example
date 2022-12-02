@@ -2,7 +2,7 @@
 import { RouterContext } from 'next/dist/shared/lib/router-context';
 import * as NextImage from 'next/image';
 import React from 'react';
-import '../styles/sass/storybook/index.scss';
+import '../styles/sass/index.scss';
 
 const BREAKPOINTS_INT = {
   xs: 375,

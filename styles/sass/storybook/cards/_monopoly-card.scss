@@ -1,31 +1,6 @@
 .sb-show-main {
   .monopoly-card {
-    max-width: 500px;
+    max-width: 300px;
     margin: 0 auto;
-  }
-}
-
-.monopoly-card {
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 16px;
-  &-header {
-    display: flex;
-  }
-  &-title {
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-  &-image {
-    border-radius: 16px;
-    width: 100%;
-    object-fit: contain;
-    height: auto;
-  }
-  &-author {
-    display: flex;
-    align-items: center;
-    column-gap: 16px;
   }
 }
